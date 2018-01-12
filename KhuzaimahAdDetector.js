@@ -1,3 +1,6 @@
+// Copyright(c) 2018 - Khuzaimah
+// All rights reserved
+
 var KhuzaimahAdDetector = {
  IsAdBlockDetected: function( ) {
   var e = document.createElement('div');
