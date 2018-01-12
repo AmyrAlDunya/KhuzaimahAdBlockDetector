@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+ <style>
+  * {
+   font-family: sans-serif, Verdana, Arial;
+  }
+  a {
+   text-decoration: none;
+   color: cyan;
+  }
+  .btn {
+   border: none;
+   width: 100px;
+   height: 30px;
+   background-color: #4782e0;
+   color: white;
+  }
+ </style>
+ <script src="./KhuzaimahAdDetector.js"></script>
+ <script>
+  function DetectAdBlock() {
+   if( KhuzaimahAdDetector.IsAdBlockDetected() ) {
+    alert('AdBlock detected');
+   }
+   else {
+    alert('No AdBlock detected');
+   }
+  }
+ </script>
+</head>
+<body>
+ <br/>
+ <center>
+  <h2>Created by <a href="https://www.facebook.com/AlAmyrAlBanjsamoro/">Khuzaimah</a></h2>
+  <button class="btn" onclick="DetectAdBlock()">Detect AdBlock</button>
+ </center>
+</body>
+</html>
